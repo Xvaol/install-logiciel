@@ -20,7 +20,7 @@ import shutil
 import time
 #Génère des fichiers et répertoires temporaires
 import tempfile
-
+#test
 #Permet de trouver le nom d'utilisateur
 name = os.getlogin()
 
