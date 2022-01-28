@@ -1,2 +1,12 @@
-# install-logiciel
-Programme d'installation de logiciels de base
+#Programme d'installation de logiciels de base
+
+Ce programme permet une installation rapide des logiciels de base sur un nouveau poste 
+
+la version de python utilisé est la 3.10 avec le module OS en complément 
+
+Le logiciel permet d'installer : Firefox, Notepad ++, Filezilla, Teams, Zoom, VLC, Teamviewer
+(cette liste peut-être amener à évoluer pour chaque ajout de nouveau logiciel)
+
+Veuillez bien suivre le fichier documentation pour puisse l'installation pas à pas 
+
+Ce Logiciel est OpenSource, il est donc libre d'utilisation et de modification
