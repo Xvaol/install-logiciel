@@ -2,7 +2,8 @@
 
 Ce programme permet une installation rapide des logiciels de base sur un nouveau poste 
 
-la version de python utilisé est la 3.10 avec le module OS en complément 
+la version de python utilisé est la 3.10 avec le module requests en complément 
+ligne de commande pour installé requests : pip install requests
 
 Le logiciel permet d'installer : Firefox, Notepad ++, Filezilla, Teams, Zoom, VLC, Teamviewer
 (cette liste peut-être amener à évoluer pour chaque ajout de nouveau logiciel)
