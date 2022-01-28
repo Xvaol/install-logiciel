@@ -92,6 +92,7 @@ def install_vlc():
 
 def install_zoom():
 	os.chdir(r"C:\\Users\\"+name+"\\AppData\\Roaming")
+	#j'intègre ma variable dans le chemin pour reconnaitre le nom d'utilisateur
 	if(os.path.exists(liste1[4])):
 		print("ZOOM existe déjà")
 	else:
@@ -109,16 +110,6 @@ def install_teams():
 		os.chdir(r"C:\Projet\logiciel")
 		os.system("Teams /S")
 		print ("Teams installé")
-
-def install_adobe():
-	os.chdir(r"C:\Program Files (x86)")
-	if(os.path.exists(liste1[6])):
-		print("Adobe existe déjà")
-	else:
-		print("Installation de Adobe")
-		os.chdir(r"C:\Projet\logiciel")
-		os.system("Adobe /S")
-		print ("Adobe installé")
 
 def install_filezilla():
 	os.chdir(r"C:\Program Files")
@@ -145,7 +136,7 @@ def install_teamviewer():
 
 print("Installation Logiciels de base")
 
-liste1 = ["Mozilla Firefox","Notepad++","GoToMeeting","VideoLAN","Zoom","Teams","Adobe",
+liste1 = ["Mozilla Firefox","Notepad++","GoToMeeting","VideoLAN","Zoom","Teams",
 "FileZilla FTP Client","TeamViewer"]
 
 #Appel de la fonction définie plus haut
@@ -155,7 +146,6 @@ install_gotomeeting()
 install_vlc()
 install_zoom()
 install_teams()
-install_adobe()
 install_filezilla()
 install_teamviewer()
 
