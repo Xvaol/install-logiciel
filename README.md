@@ -1,6 +1,6 @@
 #Programme d'installation de logiciels de base
 
-Ce programme permet une installation rapide des logiciels de base sur un nouveau poste 
+Ce programme permet une installation rapide des logiciels de base sur un nouveau poste à destination des entreprises et particulier
 
 la version de python utilisé est la 3.10 avec le module requests en complément 
 ligne de commande pour installé requests : pip install requests
