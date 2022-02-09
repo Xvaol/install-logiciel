@@ -113,7 +113,7 @@ def install_teams():
 
 def install_filezilla():
 	os.chdir(r"C:\Program Files")
-	if(os.path.exists(liste1[7])):
+	if(os.path.exists(liste1[6])):
 		print("FileZilla existe déjà")
 	else:
 		print("Installation de FileZilla")
@@ -123,7 +123,7 @@ def install_filezilla():
 
 def install_teamviewer():
 	os.chdir(r"C:\Program Files (x86)")
-	if(os.path.exists(liste1[8])):
+	if(os.path.exists(liste1[7])):
 		print("TeamViewer existe déjà")
 	else:
 		print("Installation de TeamViewer")
